@@ -18,7 +18,7 @@ void writeCharacter(uint32_t *buffer, NSInteger width, NSInteger height, NSInteg
             BOOL active = (row >> (ix - x)) & 1;
 
             if (active) {
-                buffer[(iy * width) + ix] = 0xFF00FF;
+                buffer[(iy * width) + ix] = 0x000000;
             } else {
                 buffer[(iy * width) + ix] = 0xFFFFFF;
             }

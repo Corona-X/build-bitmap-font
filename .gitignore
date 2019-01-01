@@ -20,4 +20,4 @@ root/
 target/
 
 # Output files
-build-bootlogo/XKBootLogo.h
+build-bitmap-font/XKBitmapFontData.h
